@@ -27,6 +27,7 @@ export const products = [
     subCategory: "Home",
     date: 1716668445448,
     bestseller: true,
+    description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco2",
@@ -37,6 +38,7 @@ export const products = [
     subCategory: "Lifestyle",
     date: 1716668445448,
     bestseller: true,
+     description:'menakshifhhfnbh hi my name is' ,
   },
   {
     _id: "eco3",
@@ -47,6 +49,7 @@ export const products = [
     subCategory: "Kitchen",
     date: 1716668445448,
     bestseller: false,
+     description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco4",
@@ -56,7 +59,8 @@ export const products = [
     category: "Eco",
     subCategory: "Personal Care",
     date: 1716668445448,
-    bestseller: false,
+    bestseller: true,
+     description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco5",
@@ -67,6 +71,7 @@ export const products = [
     subCategory: "Skincare",
     date: 1716668445448,
     bestseller: false,
+     description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco6",
@@ -76,7 +81,8 @@ export const products = [
     category: "Eco",
     subCategory: "Kitchen",
     date: 1716668445448,
-    bestseller: false,
+    bestseller: true,
+     description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco7",
@@ -86,7 +92,8 @@ export const products = [
     category: "Eco",
     subCategory: "Accessories",
     date: 1716668445448,
-    bestseller: false,
+    bestseller: true,
+     description: 'hi my name is menakshifhhfnbh',
   },
 
 
@@ -99,6 +106,7 @@ export const products = [
     subCategory: "Stationery",
     date: 1716668445448,
     bestseller: false,
+     description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco14",
@@ -109,6 +117,7 @@ export const products = [
     subCategory: "Stationery",
     date: 1716668445448,
     bestseller: false,
+     description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco15",
@@ -119,6 +128,7 @@ export const products = [
     subCategory: "Personal Care",
     date: 1716668445448,
     bestseller: false,
+     description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco16",
@@ -129,6 +139,7 @@ export const products = [
     subCategory: "Skincare",
     date: 1716668445448,
     bestseller: false,
+     description:' hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco17",
@@ -139,6 +150,7 @@ export const products = [
     subCategory: "Personal Care",
     date: 1716668445448,
     bestseller: false,
+     description:' hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco18",
@@ -149,6 +161,7 @@ export const products = [
     subCategory: "Kitchen",
     date: 1716668445448,
     bestseller: false,
+     description: 'hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco19",
@@ -159,6 +172,7 @@ export const products = [
     subCategory: "Home",
     date: 1716668445448,
     bestseller: false,
+     description:' hi my name is menakshifhhfnbh',
   },
   {
     _id: "eco20",
@@ -169,5 +183,6 @@ export const products = [
     subCategory: "Personal Care",
     date: 1716668445448,
     bestseller: false,
+     description: 'hi my name is menakshifhhfnbh',
   },
 ];
