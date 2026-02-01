@@ -53,6 +53,26 @@ import p_img49 from './p_img49.png'
 import p_img50 from './p_img50.png'
 import p_img51 from './p_img51.png'
 import p_img52 from './p_img52.png'
+import bambooCharcoalSpaBar from "./bambooCharcoalSpaBar.webp";
+import bambooBrush from "./bambooBrush.webp";
+import conditionerbar from "./conditionerbar.webp";
+import faceWash from "./faceWash.jpg";
+import serum from "./serum.jpg";
+import organicAloeVeraShampoo from "./organicAloeVeraShampo.jpg";
+import tongueCleaner from "./tongueCleaner.webp";
+import bambooCottonEarbuds from "./bambooCottonEarbuds.webp";
+import biodegradableToteBags from "./biodegradableToteBags.webp";
+import coconutCoirScrubbers from "./coconutCoirScrubbers.jpg";
+import woodKitchenTools from "./woodKitchenTools.jpg";
+import sustainableBambooSteel from "./sustainableBambooSteel.webp";
+import razor from "./razor.webp";
+import plantPot from "./plantPot.avif";
+import comb from "./comb.jpg";
+import peacock from "./peacock.jpg";
+import mug from "./mug.jpg"
+
+
+
 
 
 import logo from './logo-png.png'
@@ -97,6 +117,242 @@ export const assets = {
 
 export const products = [
     {
+        _id: "eco001",
+        name: "Bamboo Charcoal Spa Bar",
+        description:
+            "Natural bamboo charcoal soap that deeply cleanses skin, removes impurities, and leaves your skin fresh and smooth.",
+        price: 199,
+        image: [bambooCharcoalSpaBar],
+        category: "Skincare & Beauty",
+        subCategory: "Body Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+
+    {
+        _id: "eco002",
+        name: "Organic Face Wash",
+        description:
+            "Gentle face wash made with natural ingredients to cleanse, hydrate, and protect sensitive skin.",
+        price: 249,
+        image: [faceWash],
+        category: "Skincare & Beauty",
+        subCategory: "Face Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+
+    {
+        _id: "eco003",
+        name: "Herbal Hair Serum",
+        description:
+            "Lightweight herbal serum that nourishes scalp, reduces frizz, and strengthens hair naturally.",
+        price: 299,
+        image: [serum],
+        category: "Personal Care & Hygiene",
+        subCategory: "Hair Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: false,
+    },
+
+    {
+        _id: "eco004",
+        name: "Organic Aloe Vera Shampoo",
+        description:
+            "Sulphate-free shampoo enriched with aloe vera to gently cleanse and nourish hair.",
+        price: 349,
+        image: [organicAloeVeraShampoo],
+        category: "Personal Care & Hygiene",
+        subCategory: "Hair Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+
+    {
+        _id: "eco005",
+        name: "Bamboo Cotton Earbuds",
+        description:
+            "Eco-friendly cotton earbuds made with biodegradable bamboo sticks.",
+        price: 99,
+        image: [bambooCottonEarbuds],
+        category: "Zero Waste Essentials",
+        subCategory: "Reusable Bags & Bottle",
+        sizes: [],
+        date: Date.now(),
+        bestseller: false,
+    },
+
+    {
+        _id: "eco006",
+        name: "Biodegradable Tote Bag",
+        description:
+            "Reusable and biodegradable tote bag perfect for shopping and daily use.",
+        price: 199,
+        image: [biodegradableToteBags],
+        category: "Zero Waste Essentials",
+        subCategory: "Reusable Bags & Bottle",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+
+    {
+        _id: "eco007",
+        name: "Coconut Coir Scrubbers",
+        description:
+            "Natural coconut coir scrubbers ideal for dishwashing and cleaning without plastic.",
+        price: 149,
+        image: [coconutCoirScrubbers],
+        category: "Home & Kitchen",
+        subCategory: "Reusable Bags & Bottle",
+        sizes: [],
+        date: Date.now(),
+        bestseller: false,
+    },
+
+    {
+        _id: "eco008",
+        name: "Wooden Kitchen Tools Set",
+        description:
+            "Durable wooden kitchen tools made from sustainable wood, safe for all cookware.",
+        price: 499,
+        image: [woodKitchenTools],
+        category: "Home & Kitchen",
+        subCategory: "Reusable Bags & Bottle",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+
+    {
+        _id: "eco009",
+        name: "Bamboo Hair Comb",
+        description:
+            "Anti-static bamboo comb that reduces hair breakage and promotes healthy hair.",
+        price: 129,
+        image: [comb],
+        category: "Personal Care & Hygiene",
+        subCategory: "Hair Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: false,
+    },
+
+    {
+        _id: "eco010",
+        name: "Handmade Bamboo Coffee Mug",
+        description:
+            "Handcrafted bamboo coffee mug that keeps beverages warm and is completely plastic-free.",
+        price: 399,
+        image: [mug],
+        category: "Home & Kitchen",
+        subCategory: "Reusable Bags & Bottle",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+    {
+        _id: "eco011",
+        name: "Bamboo Toothbrush",
+        description:
+            "Eco-friendly bamboo toothbrush designed for gentle cleaning and a plastic-free lifestyle.",
+        price: 89,
+        image: [bambooBrush],
+        category: "Personal Care & Hygiene",
+        subCategory: "Body Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: false,
+    },
+
+    {
+        _id: "eco012",
+        name: "Natural Conditioner Bar",
+        description:
+            "Solid conditioner bar made with natural oils to deeply nourish and soften hair.",
+        price: 299,
+        image: [conditionerbar],
+        category: "Personal Care & Hygiene",
+        subCategory: "Hair Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+
+    {
+        _id: "eco013",
+        name: "Reusable Bamboo Razor",
+        description:
+            "Durable bamboo razor with stainless steel blade for a zero-waste shaving routine.",
+        price: 249,
+        image: [razor],
+        category: "Zero Waste Essentials",
+        subCategory: "Body Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: false,
+    },
+
+    {
+        _id: "eco014",
+        name: "Decorative Peacock Wall Art",
+        description:
+            "Aesthetic peacock-themed decor piece made to add a natural and artistic touch to your home.",
+        price: 599,
+        image: [peacock],
+        category: "Home & Kitchen",
+        subCategory: "Reusable Bags & Bottle",
+        sizes: [],
+        date: Date.now(),
+        bestseller: false,
+    },
+
+    {
+        _id: "eco015",
+        name: "Eco-friendly Plant Pot",
+        description:
+            "Sustainable plant pot perfect for indoor plants and eco-conscious home decor.",
+        price: 349,
+        image: [plantPot],
+        category: "Home & Kitchen",
+        subCategory: "Reusable Bags & Bottle",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+    {
+        _id: "eco016",
+        name: "Bamboo Stainless Steel Water Bottle",
+        description:
+            "Reusable bamboo-finished stainless steel water bottle that keeps drinks hot or cold while reducing plastic waste.",
+        price: 599,
+        image: [sustainableBambooSteel],
+        category: "Zero Waste Essentials",
+        subCategory: "Reusable Bags & Bottle",
+        sizes: [],
+        date: Date.now(),
+        bestseller: true,
+    },
+
+
+    {
+        _id: "eco017",
+        name: "Bamboo Tongue Cleaner",
+        description:
+            "Reusable bamboo tongue cleaner designed to improve oral hygiene by gently removing bacteria and toxins.",
+        price: 149,
+        image: [tongueCleaner],
+        category: "Personal Care & Hygiene",
+        subCategory: "Body Care",
+        sizes: [],
+        date: Date.now(),
+        bestseller: false,
+    },
+    {
         _id: "aaaaa",
         name: "Women Round Neck Cotton Top",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
@@ -113,7 +369,7 @@ export const products = [
         name: "Men Round Neck Pure Cotton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 200,
-        image: [p_img2_1,p_img2_2,p_img2_3,p_img2_4],
+        image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
         category: "Men",
         subCategory: "Topwear",
         sizes: ["M", "L", "XL"],
@@ -718,6 +974,5 @@ export const products = [
         sizes: ["S", "M", "L", "XL"],
         date: 1716668445448,
         bestseller: false
-    }
-
+    },
 ]
