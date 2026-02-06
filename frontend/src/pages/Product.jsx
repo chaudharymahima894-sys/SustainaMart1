@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { ShopContext } from '../context/ShopContext';
@@ -95,6 +96,14 @@ const Product = () => {
   ) : <div className='opacity-0'>
 
   </div>
+=======
+import React from 'react'
+
+const Product = () => {
+  return (
+    <div>Product</div>
+  )
+>>>>>>> f05f3471c65141d7dc58a1c78ad16376254097c5
 }
 
 export default Product
